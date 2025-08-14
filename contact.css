@@ -1,0 +1,33 @@
+ .wave-shape {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+        
+        .wave-shape svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 150px;
+        }
+        
+        .wave-shape .shape-fill {
+            fill: #FFFFFF;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }

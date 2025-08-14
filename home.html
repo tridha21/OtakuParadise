@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otaku Paradise - Premium Anime Merchandise</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Otaku<span>Paradise</span></a>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="cart-icon">
+        🛒
+        <span class="cart-count">0</span>
+      </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="hero-slideshow">
+        <img src="https://4kwallpapers.com/images/walls/thumbs_2t/23247.jpg" alt="Anime Image 1" class="active">
+        <img src="https://4kwallpapers.com/images/walls/thumbs_2t/23027.jpg" alt="Anime Image 2">
+        <img src="pic3.jpeg" alt="Anime Image 3">
+        <img src="pic4.jpeg" alt="Anime Image 4">
+        <img src="pic5.jpeg" alt="Anime Image 5">
+    </div>
+</section>
+
+
+    
+    <!-- Featured Categories -->
+    <section class="categories">
+        <div class="section-title">
+            <h2>Our Collections</h2>
+        </div>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8a0324a3-d8e0-484c-a4ca-4bea68739606.png" alt="Featured anime t-shirts with vibrant designs from popular series" class="category-img">
+                <div class="category-info">
+                    <h3>T-Shirts</h3>
+                    <p>Premium quality anime t-shirts featuring bold prints from top series. 100% cotton for ultimate comfort.</p>
+                    <a href="#" class="btn">View Collection</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/66ee1014-dc6f-436b-b398-d55d25a94615.png" alt="Display of high-quality anime figures in dynamic poses with detailed paintwork" class="category-img">
+                <div class="category-info">
+                    <h3>Figures</h3>
+                    <p>Exquisite anime figures with incredible detail. From prize figures to premium scale models.</p>
+                    <a href="#" class="btn">View Collection</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/62e231e3-51bf-47a6-8d24-b9d4fae0f125.png" alt="Collection of unique anime artifacts including replica weapons and signed memorabilia" class="category-img">
+                <div class="category-info">
+                    <h3>Artifacts</h3>
+                    <p>Authentic anime artifacts and collectibles. Replica props, signed artwork, and rare memorabilia.</p>
+                    <a href="#" class="btn">View Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products -->
+<section class="products">
+  <div class="section-title">
+    <h2>Featured Products</h2>
+  </div>
+
+  <div class="product-grid">
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="item1.jpeg" alt="Anime T-shirt" class="product-img">
+      <div class="product-info">
+        <h3>Anime T-shirt</h3>
+        <p>Premium quality anime t-shirts featuring bold prints from top series. 100% cotton for ultimate comfort.</p>
+        <div class="quantity-selector">
+          <button class="circle-btn plus-btn" onclick="increase(this)">+</button>
+          <span class="quantity" style="display:none;">0</span>
+          <button class="circle-btn minus-btn" onclick="decrease(this)" style="display:none;">−</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="item2.jpeg" alt="Anime Figure" class="product-img">
+      <div class="product-info">
+        <h3>Anime Figure</h3>
+        <p>Exquisite anime figures with incredible detail. From prize figures to premium scale models.</p>
+        <div class="quantity-selector">
+          <button class="circle-btn plus-btn" onclick="increase(this)">+</button>
+          <span class="quantity" style="display:none;">0</span>
+          <button class="circle-btn minus-btn" onclick="decrease(this)" style="display:none;">−</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="item 3.jpeg" alt="Anime Artifact" class="product-img">
+      <div class="product-info">
+        <h3>Anime Artifact</h3>
+        <p>Authentic anime artifacts and collectibles. Replica props, signed artwork, and rare memorabilia.</p>
+        <div class="quantity-selector">
+          <button class="circle-btn plus-btn" onclick="increase(this)">+</button>
+          <span class="quantity" style="display:none;">0</span>
+          <button class="circle-btn minus-btn" onclick="decrease(this)" style="display:none;">−</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h2>Join Our Otaku Community</h2>
+            <p>Subscribe to our newsletter for exclusive drops, discounts, and anime news.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Otaku Haven</h3>
+                <p>Your premier destination for premium anime merchandise. We bring the spirit of your favorite series to life with high-quality products.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Shop</h3>
+                <ul class="footer-links">
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Figures</a></li>
+                    <li><a href="#">Artifacts</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Limited Editions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>About</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Authenticity</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2022 Otaku Haven. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+</body>
+</html>
+
