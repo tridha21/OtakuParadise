@@ -2,7 +2,7 @@
 
 
 
-A vibrant and visually engaging web application for anime fashion enthusiasts, featuring a stylish UI and interactive product displays.
+A vibrant and visually engaging web application for anime fashion enthusiasts, featuring a stylish UI breathing and interactive product displays.
 
 
 
