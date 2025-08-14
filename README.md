@@ -12,8 +12,8 @@ A vibrant and visually engaging web application for fashion enthusiasts, featuri
 
 ##  Table of Contents
 
-- [Demo](#demo)
-
+- [Screenshots](#screenshots)
+  
 - [Features](#features)
 
 - [Tech Stack](#tech-stack)
@@ -22,13 +22,7 @@ A vibrant and visually engaging web application for fashion enthusiasts, featuri
 
 - [Setup \& Usage](#setup--usage)
 
-- [Screenshots](#screenshots)
 
-- [Future Plans](#future-plans)
-
-- [Contributing](#contributing)
-
-- [License](#license)
 
 
 
