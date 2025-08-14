@@ -13,15 +13,15 @@ OtakuParadise is an e-commerce platform created for anime lovers to explore, dis
 
 ## 📚 Table of Contents
 
-- 📸 [Screenshots](#screenshots)
+📸 [Screenshots](#screenshots)
   
-- ✨ [Features](#features)
+✨ [Features](#features)
 
-- 🛠 [Tech Stack](#tech-stack)
+🛠 [Tech Stack](#tech-stack)
 
-- 📂 [Project Structure](#project-structure)
+📂 [Project Structure](#project-structure)
 
-- 🚀 [Setup \& Usage](#setup--usage)
+🚀 [Setup \& Usage](#setup--usage)
 
 
 
