@@ -40,9 +40,9 @@ A vibrant and visually engaging web application for fashion enthusiasts, featuri
 
 \### Home Page
 
-!\[Home Page](images/home-page.png)
+!\[Home Page] (images/home-page.png)
 
-!\[Home Page](images/home1.png)
+!\[Home Page] (images/home1.png)
 
 
 
